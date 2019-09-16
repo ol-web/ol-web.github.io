@@ -1,0 +1,8 @@
+{
+  "short_name": "save a fox",
+  "name": "save a fox",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#f16108",
+  "background_color": "#4a4a4a"
+}

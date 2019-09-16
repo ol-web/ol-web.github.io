@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="mail" unicode="&#xe810;" d="M834 688q44 0 74-30t30-74l0-468q0-43-30-74t-74-30l-730 0q-44 0-74 30t-30 74l0 468q0 44 30 74t74 30l730 0z m-421-454l-82 72-190-190 655 0-190 190-81-72q-24-20-56-20t-56 20z m-309-82l187 189-187 163 0-352z m542 189l188-188 0 351z m188 243l-730 0 0-11 342-300q9-7 23-7t22 7l343 300 0 11z" horiz-adv-x="938" />
+
+<glyph glyph-name="facebook" unicode="&#xe811;" d="M810 779q19 0 33-14t14-34v-762q0-20-14-34t-33-14h-218v332h111l16 130h-127v83q0 31 13 46t51 16l68 1v115q-35 5-100 5-75 0-121-45t-45-126v-95h-112v-130h112v-332h-411q-19 0-33 14t-14 34v762q0 20 14 34t33 14h763z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="menu" unicode="&#xe812;" d="M650 400q22 0 36-15t14-35-15-35-35-15l-600 0q-20 0-35 15t-15 35 14 35 36 15l600 0z m-600 100q-20 0-35 15t-15 35 14 35 36 15l600 0q22 0 36-15t14-35-15-35-35-15l-600 0z m600-300q22 0 36-15t14-35-15-35-35-15l-600 0q-20 0-35 15t-15 35 14 35 36 15l600 0z" horiz-adv-x="700" />
+
+<glyph glyph-name="cancel" unicode="&#xe813;" d="M452 194q18-18 18-43t-18-43q-18-16-43-16t-43 16l-132 152-132-152q-18-16-43-16t-43 16q-16 18-16 43t16 43l138 156-138 158q-16 18-16 43t16 43q18 16 43 16t43-16l132-152 132 152q18 16 43 16t43-16q18-18 18-43t-18-43l-138-158z" horiz-adv-x="470" />
+</font>
+</defs>
+</svg>

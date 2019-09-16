@@ -1,0 +1,19 @@
+{
+  "name": "VIRTUS",
+  "short_name": "VIRTUS",
+  "description": "VIRTUS Dashboard to aplikacja pozwalająca tworzyć i oglądać projekty w ekipie. Synchronizuj pracę między różnymi osobami, komunikuj się z nimi i śledź na bieżąco postęp pracy.",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2F3243",
+     "background_color": "#2A2C3B",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
