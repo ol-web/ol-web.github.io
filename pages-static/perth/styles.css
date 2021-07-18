@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway:300,700');
+@font-face {
+  font-family: fontello;
+  src: url(font/fontello.eot?14967381);
+  src: url(font/fontello.eot?14967381#iefix) format('embedded-opentype'),
+    url(font/fontello.woff2?14967381) format('woff2'),
+    url(font/fontello.woff?14967381) format('woff'),
+    url(font/fontello.ttf?14967381) format('truetype'),
+    url(font/fontello.svg?14967381#fontello) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+[class*=' icon-']:before,
+[class^='icon-']:before {
+  font-family: fontello;
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-paperplane:before {
+  content: '\e800';
+}
+.icon-up:before {
+  content: '\e801';
+}
+.icon-twitter:before {
+  content: '\f099';
+}
+.icon-facebook:before {
+  content: '\f09a';
+}
+.icon-menu:before {
+  content: '\f0c9';
+}
+.icon-mail:before {
+  content: '\f0e0';
+}
+.icon-download:before {
+  content: '\f0ed';
+}
+.icon-beer:before {
+  content: '\f0fc';
+}
+.icon-dribbble:before {
+  content: '\f17d';
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+b {
+  font-weight: 700;
+}
+blockquote {
+  border-left: 6px solid #0da9e5;
+  margin: 0;
+  padding-left: 20px;
+  font-style: italic;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  background: #f4f4f4;
+  font-size: 16px;
+  color: #7e7e7e;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn {
+  background: transparent;
+  border: 3px solid #000;
+  padding: 22px 28px;
+  border-radius: 4px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+.welcome {
+  background: url(img/background.png);
+  height: 750px;
+  overflow: hidden;
+}
+.welcome .container {
+  position: relative;
+}
+.welcome img {
+  position: absolute;
+  margin: 0 auto;
+  top: 480px;
+  right: 0;
+  bottom: auto;
+  left: 0;
+}
+.welcome .logo {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Kaushan Script, cursive;
+  font-size: 50px;
+  color: #0da9e5;
+  text-align: center;
+  line-height: 76px;
+  width: 100px;
+  height: 104px;
+  background: #fff;
+  border-bottom: 4px solid #0da9e5;
+  box-shadow: 14px 14px 0 0 #26b0e6;
+}
+.welcome .icon-menu {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  top: 30px;
+  right: 4px;
+  bottom: auto;
+  left: auto;
+  transition: 0.2s;
+  font-size: 50px;
+  color: #fff;
+}
+.welcome .icon-menu:hover {
+  box-shadow: 0 2px 0 2px hsla(0, 0%, 100%, 0.39);
+}
+.welcome .icon-menu:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+.welcome .btn-download {
+  display: block;
+  position: relative;
+  top: 100px;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  z-index: 2;
+  color: #fff;
+  border-color: #fff;
+}
+.welcome .btn-download:hover {
+  background: #fff;
+  color: #545454;
+}
+.welcome .btn-download,
+.welcome h1,
+.welcome h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+.welcome h1 {
+  font-family: Kaushan Script, cursive;
+  font-size: 70px;
+  margin-top: 120px;
+}
+.welcome h2 {
+  font-size: 35px;
+  font-weight: 100;
+}
+.about {
+  background: #f4f4f4;
+  padding: 140px 0;
+  position: relative;
+  overflow: hidden;
+}
+.about blockquote,
+.about button,
+.about h1,
+.about p {
+  position: relative;
+  z-index: 1;
+}
+.about h1 {
+  margin: 0;
+  margin-bottom: 43px;
+  font-size: 40px;
+  color: #545454;
+}
+.about blockquote,
+.about p {
+  max-width: 560px;
+}
+.about p {
+  margin-bottom: 33px;
+}
+.about blockquote {
+  margin-bottom: 70px;
+}
+.about button {
+  color: #14af8f;
+  border-color: #14af8f;
+}
+.about button:hover {
+  background: #14af8f;
+  color: #fff;
+}
+.about img {
+  position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: auto;
+}
+.portfolio {
+  background: #fff;
+  padding-top: 105px;
+  padding-bottom: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio .offset-right {
+  margin-right: 0;
+  margin-left: auto;
+  max-width: 540px;
+}
+.portfolio h1 {
+  font-size: 40px;
+  color: #545454;
+}
+.portfolio h1,
+.portfolio p {
+  margin-bottom: 40px;
+}
+.portfolio button {
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+  color: #ea4c89;
+  border-color: #ea4c89;
+}
+.portfolio button:hover {
+  background: #ea4c89;
+  color: #fff;
+}
+.portfolio img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  width: 520px;
+  -webkit-transform: translateY(75px);
+  transform: translateY(75px);
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+}
+.donate {
+  background: url(img/background-donate.png);
+  color: #fff;
+}
+.donate .container {
+  padding: 100px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.donate h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+.donate button {
+  color: #fff;
+  margin-top: 40px;
+  border-color: #fff;
+}
+.donate button:hover {
+  background: #fff;
+  color: #545454;
+}
+.contact {
+  background: #f4f4f4;
+}
+.contact .container {
+  padding: 110px 20px 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact a {
+  font-size: 0;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 70px;
+}
+.contact a:active,
+.contact a:link,
+.contact a:visited {
+  color: inherit;
+}
+.contact .icon-contact {
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 18px;
+  border: 4px solid #545454;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+.contact a:hover .icon-facebook {
+  color: #3b5999;
+  border-color: #3b5999;
+}
+.contact a:hover .icon-twitter {
+  color: #55acee;
+  border-color: #55acee;
+}
+.contact a:hover .icon-dribbble {
+  color: #ea4c89;
+  border-color: #ea4c89;
+}
+.contact a:hover .icon-paperplane {
+  color: #31ce11;
+  border-color: #31ce11;
+}
+.contact form {
+  margin-top: 100px;
+}
+.contact form label {
+  font-style: italic;
+  margin-right: 40px;
+  font-weight: 700;
+}
+.contact form .input-email {
+  position: relative;
+  display: inline-block;
+}
+.contact form input {
+  padding: 10px;
+  border-radius: 6px;
+  background: #fff;
+  color: #545454;
+  font-style: italic;
+  font-size: 14px;
+  border: 0;
+}
+.contact form i {
+  color: #0da9e5;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  transition: 0.2s;
+}
+footer {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+footer .container {
+  padding: 25px 0;
+}
+footer .blue-text {
+  color: #0da9e5;
+}
+@media only screen and (max-width: 480px) {
+  .contact form label {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .contact form input {
+    width: 100%;
+  }
+  .contact form .input-email {
+    display: block;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .welcome h1 {
+    margin-top: 53px;
+    margin-bottom: 0;
+  }
+  .welcome img {
+    top: 550px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .about,
+  .portfolio {
+    text-align: center;
+  }
+  .about blockquote,
+  .about p,
+  .portfolio blockquote,
+  .portfolio p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about p,
+  .portfolio p {
+    max-width: 100%;
+  }
+  .about img {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    opacity: 0.2;
+  }
+  .portfolio .offset-right {
+    margin: 0;
+    max-width: 100%;
+  }
+  .portfolio button,
+  .portfolio h1,
+  .portfolio p {
+    max-width: 100%;
+  }
+  .portfolio img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .welcome .download,
+  .welcome h1,
+  .welcome h2 {
+    text-align: right;
+    margin-right: 35px;
+  }
+  .welcome img {
+    margin: 0;
+    right: 0;
+    left: 130px;
+  }
+  .welcome .btn-download {
+    display: block;
+    position: static;
+    margin-left: auto;
+    margin-right: 35px;
+  }
+  .portfolio img {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .welcome .btn-download {
+    top: 150px;
+  }
+}

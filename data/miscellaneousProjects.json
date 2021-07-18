@@ -1,0 +1,136 @@
+[
+  {
+    "type": "BOILERPLATE",
+    "title": "webpack-boilerplate-react",
+    "description": "Boilerplate supporting all the coolest functionalities of Webpack 4 shown in its documentation as well as React + Redux + Jest + PWA support.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/webpack-boilerplate-react"
+      }
+    ]
+  },
+  {
+    "type": "LIBRARY",
+    "title": "repetitive.js",
+    "description": "My old JS library in which I wanted to minimize repetitive code. All methods were exported seperately as UMD modules.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/repetitive.js"
+      },
+      {
+        "label": "npm",
+        "href": "https://www.npmjs.com/package/repetitive"
+      }
+    ]
+  },
+  {
+    "type": "LIBRARY",
+    "title": "generate-quiz",
+    "description": "Generates a quiz from an array of questions. Made for a school project.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/generate-quiz"
+      },
+      {
+        "label": "npm",
+        "href": "https://www.npmjs.com/package/generate-quiz"
+      }
+    ]
+  },
+  {
+    "type": "LIBRARY",
+    "title": "human-timer",
+    "description": "Tiny, human readable timer with no external dependencies.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/human-timer"
+      },
+      {
+        "label": "npm",
+        "href": "https://www.npmjs.com/package/human-timer"
+      }
+    ]
+  },
+  {
+    "type": "Component",
+    "title": "react-human-timer",
+    "description": "React component wrapper for human-timer.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/react-human-timer"
+      },
+      {
+        "label": "npm",
+        "href": "https://www.npmjs.com/package/react-human-timer"
+      }
+    ]
+  },
+  {
+    "type": "CLI",
+    "title": "directory-shuffle-cli",
+    "description": "Shuffles the selected directory by overwriting and renaming its files. Doesn't shuffle subdirectories.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/directory-shuffle-cli"
+      },
+      {
+        "label": "npm",
+        "href": "https://www.npmjs.com/package/directory-shuffle-cli"
+      }
+    ]
+  },
+  {
+    "type": "Extension",
+    "title": "librus-plus",
+    "description": "A Chrome extension that allows you to be lazy in school.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/librus-plus"
+      }
+    ]
+  },
+  {
+    "type": "REST API",
+    "title": "quotes-rest-api",
+    "description": "A regular REST API built using Express, Mongoose, JWT and Passport. Features basic CRUD operations for quotes and users as well as integration tests using Jest.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/quotes-rest-api"
+      }
+    ]
+  },
+  {
+    "type": "Discord Bot",
+    "title": "discord-sebot",
+    "description": "Discord Bot that can play Youtube music, make doner kebabs, use external APIs that send fox pictures or bitcoin prices and possibly more. Made for fun.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/discord-sebot"
+      }
+    ]
+  },
+  {
+    "type": "Plugin",
+    "title": "parcel-plugin-jsonpack",
+    "description": "Parcel plugin that uses jsonpack to pack imported json files into much smaller strings. You can then unpack the string client-side.",
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com/oL-web/parcel-plugin-jsonpack"
+      },
+      {
+        "label": "npm",
+        "href": "https://www.npmjs.com/package/parcel-plugin-jsonpack"
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="repetitive.js is a JavaScript library created to perform repetitive tasks. AJAX calls, manipulating DOM classes etc. - all the things you've probably done countless times before - now in a single library. Or not! repetitive.js is modularized - every function can be obtained as a standalone UMD module package."
+    />
+    <meta
+      name="keywords"
+      content="repetitivejs,rptv,repetitive,javascript,library,dom,repetitive.js,ajax"
+    />
+    <title>repetitive.js</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <img src="img/favicon.png" alt="rptv" />
+        <h1>repetitive.js</h1>
+        <a class="btn" href="documentation.html">Documentation</a>
+      </div>
+    </header>
+
+    <div class="container-small">
+      <section class="introduction">
+        <h2>What is repetitive.js?</h2>
+        <p class="emphasized">
+          PLEASE NOTE! This library is still in production! It will be expanded
+          in the future but for now - you can use standalone modules for
+          repetitive tasks!
+        </p>
+        <p>
+          repetitive.js is a JavaScript library created to perform repetitive
+          tasks. AJAX calls, manipulating DOM classes etc. - all the things
+          you've probably done countless times before - now in a single library.
+          Or not! repetitive.js is modularized - every function can be obtained
+          as a standalone UMD module package.
+        </p>
+        <pre><code class="javascript hljs">
+    rptv("p"); // shorter document.querySelectorAll returning all elements as an Array
+
+    rptv.ajax({
+        url:"data.json",
+        onSuccess: function(response){
+            console.log( JSON.parse(response.responseText) );
+        }
+    });
+           
+   rptv.classes(rptv("button")).add("btn btn-block").remove("btn-gray").toggle("visible");
+            </code></pre>
+      </section>
+
+      <section class="download">
+        <h2>Download</h2>
+        <ul>
+          <li>
+            <a
+              href="https://raw.githubusercontent.com/oL-web/repetitive.js/master/dist/repetitive.min.js"
+            >
+              <i class="icon icon-download"></i>Minifed version (recommended)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://raw.githubusercontent.com/oL-web/repetitive.js/master/dist/repetitive.js"
+            >
+              <i class="icon icon-download"></i>Unminified version</a
+            >
+          </li>
+          <li>
+            <a href="https://cdnjs.com/">
+              <i class="icon icon-link"></i>CDN minified version - in the
+              future!</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="installation">
+        <h2>Installation</h2>
+        <p>You can install this package from npm:</p>
+        <pre><code class="hljs shell">
+    npm install repetitive.ajax 
+    npm install --save repetitive.ajax
+    npm install --save-dev repetitive.ajax
+            </code></pre>
+        <p>Use in a browser:</p>
+        <pre><code class="hljs html">
+    &lt;script src="repetitive.js">&lt;/script>
+    &lt;script src="repetitive.min.js">&lt;/script>
+            </code></pre>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>
+          Want to contact me? Do you have any questions, suggestions or troubles
+          with repetitive.js? Here's where you can go:
+        </p>
+        <ul>
+          <li>
+            <a href="https://github.com/oL-web/repetitive.js"
+              ><i class="icon icon-github"></i>repetitive.js GitHub page</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/oL-web"
+              ><i class="icon icon-github"></i>my own GitHub</a
+            >
+          </li>
+          <li>
+            <a href="https://ol-web.github.io/"
+              ><i class="icon icon-home"></i>my own website</a
+            >
+          </li>
+          <li>
+            <a href="mailto:ol_web@outlook.com"
+              ><i class="icon icon-mail"></i>e-mail - ol_web@outlook.com</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>
+          Copyright 2017 ol-web - repetitive.js is released under the
+          <a href="https://github.com/oL-web/repetitive.js/blob/master/LICENSE"
+            >MIT license</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

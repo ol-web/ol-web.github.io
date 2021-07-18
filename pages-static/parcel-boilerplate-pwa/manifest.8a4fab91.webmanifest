@@ -1,0 +1,15 @@
+{
+  "lang": "en-US",
+  "name": "APP NAME (max 45 characters)",
+  "short_name": "(max 12 cha)",
+  "description": "DESCRIPTION",
+  "scope": "/parcel-boilerplate-pwa/",
+  "start_url": "/parcel-boilerplate-pwa/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    { "src": "favicon.bacf2b69.png", "sizes": "192x192", "type": "image/png" }
+  ]
+}

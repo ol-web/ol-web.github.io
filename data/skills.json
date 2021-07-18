@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Technologies I used briefly or a long time ago",
+    "items": ["jQuery", "Bootstrap", "Gulp", "Next.js", "Express", "MongoDB"]
+  },
+  {
+    "title": "Technologies I use frequently",
+    "items": [
+      "HTML",
+      "CSS/Sass (BEM, RWD)",
+      "JavaScript (with some Typescript)",
+      "❤️Vue (with Nuxt)❤️",
+      "Phaser 3",
+      "React + Redux",
+      "...and other things such as: Git, npm, Parcel, Webpack, Node.js, REST APIs etc."
+    ]
+  },
+  {
+    "title": "Technologies I'd like to learn in the future",
+    "items": ["Firebase or other BaaS", "React Native"]
+  }
+]

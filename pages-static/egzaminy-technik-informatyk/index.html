@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Aplikacja pozwalająca na wygodne rozwiązywanie pytań z egzaminów zawodowych dla technika informatyka(E12, E13, E14)."
+    />
+    <meta
+      name="keywords"
+      content="e12,e13,e14,egzamin informatyk, technik informatyk,egzamin technik informatyk, egzaminy kwalifikacyjne, technik informatyk,"
+    />
+    <meta name="theme-color" content="#3c86bd" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="E12 E13 E14" />
+    <meta name="apple-mobile-web-app-title" content="E12 E13 E14" />
+    <meta
+      name="msapplication-starturl"
+      content="/egzaminy-technik-informatyk"
+    />
+    <link rel="shortcut icon" href="favicon.5556fdd3.png" />
+    <link rel="manifest" href="manifest.a35196a3.webmanifest" />
+    <title>egzaminy - technik informatyk</title>
+    <link rel="stylesheet" href="js.31a7704d.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">egzaminy - technik informatyk</h1>
+      <p class="description">
+        Wybierz egzamin, aby rozpocząć. Poprawnie rozwiązane pytania są usuwane
+        z puli pytań, ale możesz mieć do nich dostęp jeśli dodałeś je do
+        ulubionych(&#9733;). Twoja pula pytań zapisuje się na urządzeniu, a
+        stronę możesz zainstalować na smartfonie, aby mieć do niej dostęp
+        offline.
+      </p>
+    </header>
+    <nav class="btn-group">
+      <button class="generate-quiz__btn-e12 btn">E12</button>
+      <button class="generate-quiz__btn-e13 btn">E13</button>
+      <button class="generate-quiz__btn-e14 btn">E14</button>
+      <button class="generate-quiz__btn-favorites btn">ULUBIONE</button>
+    </nav>
+    <div class="generate-quiz"></div>
+    <div class="generate-quiz__menu">
+      <p class="generate-quiz__results">Tutaj pojawi się twój wynik!</p>
+      <button class="generate-quiz__btn-results btn" disabled="">
+        WYŚWIETL WYNIK
+      </button>
+      <button class="generate-quiz__btn-reset btn">LOSUJ PYTANIA</button>
+    </div>
+    <div class="credits">
+      <p>
+        Autor strony: <a href="https://github.com/oL-web">Michał Olejniczak</a>
+      </p>
+      <p>
+        Autor tła: Johan Blomström [<a
+          href="https://creativecommons.org/licenses/by/2.0"
+          >CC BY 2.0</a
+        >],
+        <a
+          href="https://commons.wikimedia.org/wiki/File:Waving_reeds_cinemagraph.gif"
+          >via Wikimedia Commons</a
+        >
+      </p>
+    </div>
+    <script src="js.c728a073.js"></script>
+    <script>
+      'serviceWorker' in navigator &&
+        navigator.serviceWorker
+          .register('sw.js')
+          .then(function (e) {
+            console.log('Registration successful, scope is:', e.scope)
+          })
+          .catch(function (e) {
+            console.log('Service worker registration failed, error:', e)
+          })
+    </script>
+  </body>
+</html>

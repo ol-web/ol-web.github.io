@@ -1,0 +1,19 @@
+{
+  "lang": "en-US",
+  "name": "ol-web | web developer",
+  "short_name": "ol-web",
+  "description": "Michał Olejniczak - JavaScript Developer / Web Developer | I am a web developer with several years of experience passionate about web technologies!",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#402d20",
+  "background_color": "#e8e8e8",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

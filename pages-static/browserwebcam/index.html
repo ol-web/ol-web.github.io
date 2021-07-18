@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Use your webcam inside the browser window. You can take multiple pictures and save them."
+    />
+    <meta
+      name="keywords"
+      content="BrowserWebcam, webcam, html webcam, webcamjs, ol-web"
+    />
+    <title>BrowserWebcam</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">BrowserWebcam</h1>
+
+      <div id="webcam"></div>
+
+      <div class="flex-container">
+        <button class="btn" id="btn-picture">Take picture</button>
+        <button class="btn" id="btn-picture-flip">Flip camera</button>
+      </div>
+
+      <div id="picture-gallery" class="gallery"></div>
+    </div>
+    <footer>
+      <p>
+        For contact or more - visit my website
+        <a href="https://ol-web.github.io/">here</a>
+      </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.24/webcam.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

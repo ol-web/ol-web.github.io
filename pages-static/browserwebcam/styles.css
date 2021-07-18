@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn {
+  padding: 22px 28px;
+  transition: 0.2s;
+}
+.btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+@-webkit-keyframes a {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes a {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  background-color: #887054;
+  text-align: center;
+  color: #fff;
+}
+a {
+  color: inherit;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.title {
+  display: block;
+  font-family: Nunito, sans-serif;
+  font-size: 64px;
+  letter-spacing: 5px;
+  margin: 0;
+  text-align: center;
+  padding: 50px 0;
+  text-shadow: 0 0 3px #000;
+}
+.description {
+  margin: 20px;
+  margin-top: 40px;
+}
+#webcam {
+  position: relative;
+  height: 600px;
+  width: 719px;
+  background: #000;
+  margin: auto auto 30px;
+  z-index: 1;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+}
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  font-size: 14px;
+  background: #261409;
+}
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 30px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+.gallery__picture {
+  width: 32%;
+  height: 100%;
+  -webkit-animation: a 1s;
+  animation: a 1s;
+}
+.gallery__picture_full {
+  width: auto;
+  position: fixed;
+  top: 50%;
+  z-index: 2;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn {
+  background: #52331f;
+  border-radius: 7px;
+  width: 40%;
+  margin: 10px;
+  display: block;
+  max-height: 150px;
+  border: 0;
+  color: #fff;
+}
+.btn:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 32px;
+  }
+  #webcam {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .title {
+    font-size: 24px;
+  }
+  .btn {
+    width: 100%;
+  }
+}

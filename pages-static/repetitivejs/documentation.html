@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en" class="documentation">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="repetitive.js is a JavaScript library created to perform repetitive tasks. AJAX calls, manipulating DOM classes etc. - all the things you've probably done countless times before - now in a single library. Or not! repetitive.js is modularized - every function can be obtained as a standalone UMD module package."
+    />
+    <meta
+      name="keywords"
+      content="repetitivejs,rptv,repetitive,javascript,library,dom,repetitive.js,ajax,documentation,docs,examples"
+    />
+    <title>repetitive.js documentation</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <img src="img/favicon.png" alt="rptv" />
+        <h1>repetitive.js</h1>
+        <a class="btn" href="index.html" tabindex="1">Home</a>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <nav class="menu">
+        <div class="input-search">
+          <input
+            tabindex="2"
+            id="menu-search"
+            type="search"
+            placeholder="Search"
+          />
+          <i class="icon icon-search"></i>
+        </div>
+        <ul tabindex="3">
+          <li><a href="#rptv">rptv</a></li>
+          <li><a href="#ajax">rptv.ajax</a></li>
+          <li><a href="#classes">rptv.classes</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+          <li><a href="#placeholder">rptv.placeholder</a></li>
+        </ul>
+      </nav>
+
+      <div class="methods">
+        <article id="rptv">
+          <h2>rptv</h2>
+          <p>
+            rptv is the core of repetitive.js, containing its every method. You
+            can invoke it to get an array of DOM elements from
+            document.querySelectorAll().
+          </p>
+          <pre><code class="hljs javascript">
+    rptv(css-selector);
+            </code></pre>
+          <h3>Returns</h3>
+          <ul>
+            <li>
+              <span class="object">Array [ ]</span> - contains DOM elements
+            </li>
+          </ul>
+          <h3>Download (only as full library)</h3>
+          <ul class="downloads">
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/oL-web/repetitive.js/blob/master/dist/repetitive.min.js"
+                ><i class="icon icon-github"></i>source code minified
+                (recommended)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/oL-web/repetitive.js/blob/master/dist/repetitive.js"
+                ><i class="icon icon-github"></i>source code unminified</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://www.npmjs.com/package/repetitive"
+                ><i class="icon icon-link"></i>npm</a
+              >
+            </li>
+          </ul>
+          <h3>Examples</h3>
+          <pre><code class="hljs javascript">
+    rptv("body") // returns Array [ &lt;body> ];
+           
+    rptv("body ul li").forEach(function(element){ // iterate over every element
+               element.textContent = "help me";
+           });
+            </code></pre>
+        </article>
+
+        <article id="ajax">
+          <h2>rptv.ajax</h2>
+          <p>Sends an AJAX request.</p>
+          <pre><code class="hljs javascript">
+    rptv.ajax(object);
+            </code></pre>
+          <h3>Configuration object</h3>
+          <p>
+            Configuration object is passed as an argument to the rptv.ajax()
+            function. The available properties are:
+          </p>
+          <ul>
+            <li>
+              <span class="property">url</span> -
+              <span class="required">required</span>, path you're trying to
+              reach
+            </li>
+            <li>
+              <span class="property">onSuccess()</span> -
+              <span class="required">required</span>, function called when the
+              ajax call is successful, response object passed as an argument
+            </li>
+            <li>
+              <span class="property">type</span> - "POST" or "GET", default is
+              "GET"
+            </li>
+            <li>
+              <span class="property">timeout</span> - miliseconds until the ajax
+              call expires, default is 0 (doesn't expire)
+            </li>
+            <li>
+              <span class="property">data</span> - data passed to
+              XMLHttpRequest.send() method, default is null
+            </li>
+            <li>
+              <span class="property">onTimeout()</span> - function called after
+              the call expires, default is null
+            </li>
+            <li>
+              <span class="property">onError()</span> - function called when
+              there's an error
+            </li>
+          </ul>
+          <h3>Response object</h3>
+          <p>
+            Response object is passed as an argument to the onSuccess function.
+            Depending on the browser support, it can have different amounts of
+            properties such as:
+          </p>
+          <ul>
+            <li><span class="property">responseText</span></li>
+            <li><span class="property">responseURL</span></li>
+            <li><span class="property">responseXML</span></li>
+            <li><span class="property">response</span></li>
+          </ul>
+          <h3>Download</h3>
+          <ul class="downloads">
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/oL-web/repetitive.ajax/blob/master/dist/repetitive.ajax.min.js"
+                ><i class="icon icon-github"></i>source code minified
+                (recommended)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/oL-web/repetitive.ajax/blob/master/dist/repetitive.ajax.js"
+                ><i class="icon icon-github"></i>source code unminified</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.npmjs.com/package/repetitive.ajax"
+                ><i class="icon icon-link"></i>npm</a
+              >
+            </li>
+          </ul>
+          <h3>Examples</h3>
+          <pre><code class="hljs javascript">   
+    rptv.ajax({
+      url: "../package.json",
+      onSuccess: function (resp) {
+        console.log(resp.responseText);
+      }
+    });
+    
+    rptv.ajax({
+      type: "GET",
+      url: "../package.json",
+      timeout: 6000,
+      onTimeout: function(){ 
+          console.log("timeout");
+        },
+      onError: function(){ 
+          throw new Error("ajax error");
+        },
+      onSuccess: function (resp) {
+        console.log(resp);
+        console.log(resp.responseText);
+        console.log(resp.responseURL);
+        console.log(resp.responseXML);
+        console.log(resp.response);
+      }
+    });
+            </code></pre>
+        </article>
+
+        <article id="classes">
+          <h2>rptv.classes</h2>
+          <p>
+            Takes any DOM element/s and returns an object allowing you use
+            methods on them, such as: adding, removing, toggling and checking if
+            the element contains specified classes. It's like classList API but
+            better and more browser compatible.
+          </p>
+          <pre><code class="hljs javascript">
+    rptv.classes(DOM-element/s);
+            </code></pre>
+          <h3>Returns</h3>
+          <ul>
+            <li>
+              <span class="object">Object { }</span> - allows you to chain
+              different methods, only for add(), remove() and toggle()
+            </li>
+            <li>
+              <span class="object">Boolean { }</span> - true if all elements
+              contain specified classes, only for contains()
+            </li>
+          </ul>
+          <h3>Methods</h3>
+          <ul>
+            <li>
+              <span class="property">add(</span
+              ><span class="parameter">string</span
+              ><span class="property">)</span> - adds all classes in a string to
+              all specified elements
+            </li>
+            <li>
+              <span class="property">remove(</span
+              ><span class="parameter">string</span
+              ><span class="property">)</span> - removes all classes in a string
+              from all specified elements if they have them
+            </li>
+            <li>
+              <span class="property">toggle(</span
+              ><span class="parameter">string</span
+              ><span class="property">)</span> - removes all classes in a string
+              if the element has them, adds them it if it doesn't
+            </li>
+            <li>
+              <span class="property">contains(</span
+              ><span class="parameter">string</span
+              ><span class="property">)</span> - returns true if all specified
+              elements have all classes from the string, otherwise returns false
+            </li>
+          </ul>
+          <h3>Download</h3>
+          <ul class="downloads">
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/oL-web/repetitive.classes/blob/master/dist/repetitive.classes.min.js"
+                ><i class="icon icon-github"></i>source code minified
+                (recommended)</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/oL-web/repetitive.classes/blob/master/dist/repetitive.classes.js"
+                ><i class="icon icon-github"></i>source code unminified</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.npmjs.com/package/repetitive.classes"
+                ><i class="icon icon-link"></i>npm</a
+              >
+            </li>
+          </ul>
+          <h3>Examples</h3>
+          <pre><code class="hljs javascript">   
+    const el = document.querySelectorAll("button");
+
+    rptv.classes(el).add("btn-block btn-red other-class"); // adds these three classes to all button elements
+
+    rptv.classes(el).remove("btn-red btn-big btn-something"); // removes these three classes from all button elements if they have them
+
+    rptv.classes(el).toggle("btn-blue btn-gray"); // removes btn-blue and btn-gray class if the element has one, adds it if it doesn't
+
+    rptv.classes(el).contains("btn-blue btn-block"); // returns true if all buttons have these two classes, otherwise returns false
+           
+    rptv.classes(el).add("btn btn-block").remove("some-class").toggle("btn-blue");
+            </code></pre>
+        </article>
+
+        <footer>
+          <p>
+            Copyright 2017 ol-web - repetitive.js is released under the
+            <a
+              href="https://github.com/oL-web/repetitive.js/blob/master/LICENSE"
+              >MIT license</a
+            >
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script src="documentation.js"></script>
+  </body>
+</html>

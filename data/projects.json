@@ -1,0 +1,215 @@
+[
+  {
+    "title": "Games",
+    "items": [
+      {
+        "title": "Hotfix",
+        "imageSrc": "/page-thumbnails/hotfix.png",
+        "description": "My biggest and most time-consuming Javascript project to date. It took me all of 2019 and early 2020 to develop. It's a game built using various web technologies - Phaser 3, nw.js, React, Howler, greenworks and many, many more.",
+        "links": [
+          {
+            "label": "Store",
+            "href": "https://store.steampowered.com/app/1274090/Hotfix/"
+          }
+        ]
+      },
+      {
+        "title": "ClanWars GO",
+        "imageSrc": "/page-thumbnails/clanwars-go.png",
+        "description": "MERN stack game project using Google Maps and geolocation APIs to create an experience similiar to games such as Pokemon GO. Has some unfinished work though (more in the repo)",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/clanwars-go"
+          },
+          {
+            "label": "Live",
+            "href": "https://clanwars-go.herokuapp.com/"
+          }
+        ]
+      },
+      {
+        "title": "react-minesweeper",
+        "imageSrc": "/page-thumbnails/react-minesweeper.png",
+        "description": "The classic minesweeper game written as a React component. Made for fun :).",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/react-minesweeper"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/react-minesweeper"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Web apps",
+    "items": [
+      {
+        "title": "ERB Webcam",
+        "imageSrc": "/page-thumbnails/erb-webcam.png",
+        "description": "Webcam desktop app based on electron-react-boilerplate made to test out Electron and its auto-update functionality of electron-builder with Github releases",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/erb-webcam"
+          },
+          {
+            "label": "Download",
+            "href": "https://github.com/ol-web/erb-webcam/releases"
+          }
+        ]
+      },
+      {
+        "title": "egzaminy-prawo-jazdy",
+        "imageSrc": "/page-thumbnails/egzaminy-prawo-jazdy.png",
+        "description": "Web app containing most of the official Polish driving exam questions to help future drivers test their skills.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/egzaminy-prawo-jazdy"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/egzaminy-prawo-jazdy"
+          }
+        ]
+      },
+      {
+        "title": "egzaminy-technik-informatyk",
+        "imageSrc": "/page-thumbnails/egzaminy-technik-informatyk.png",
+        "description": "PWA web app created to help me and other students study computer science.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/egzaminy-technik-informatyk"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/egzaminy-technik-informatyk"
+          }
+        ]
+      },
+      {
+        "title": "WebStickyNotes",
+        "imageSrc": "/page-thumbnails/webstickynotes.png",
+        "description": "Mongo, Express, SSR React, Node, Next.js single page application for creating sticky notes in the browser stored in localStorage with the ability to share them and download others by using a custom URL. The UI was made with React-UWP.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/WebStickyNotes"
+          },
+          {
+            "label": "Live",
+            "href": "https://webstickynotes.herokuapp.com/"
+          }
+        ]
+      },
+      {
+        "title": "heheobrazki",
+        "imageSrc": "/page-thumbnails/heheobrazki.png",
+        "description": "Node, Express, Bootstrap 4 web app to browse and publish pictures that can be commented on and upvoted. Also an unnecessary socket.io chat tacked on just for the sake of it.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/heheobrazki"
+          },
+          {
+            "label": "Live",
+            "href": "https://heheobrazki.herokuapp.com/"
+          }
+        ]
+      },
+      {
+        "title": "nie-wiem-wlasnie-o-co-chodzi",
+        "imageSrc": "/page-thumbnails/nie-wiem.png",
+        "description": "Soundboard made for my school friends. It shouldn't even be mentioned here, don't click it!",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/nie-wiem-wlasnie-o-co-chodzi"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/nie-wiem-wlasnie-o-co-chodzi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Websites",
+    "items": [
+      {
+        "title": "Virtus Dashboard",
+        "imageSrc": "/page-thumbnails/virtus.png",
+        "description": "One of my first React apps. However, in this project I focused more on the design rather than learning the React way of writing code.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/virtus"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/virtus"
+          }
+        ]
+      },
+      {
+        "title": "Perth",
+        "imageSrc": "/page-thumbnails/perth.png",
+        "description": "Old website created from a PSD file. It's so old I didn't even commit the source to Github",
+        "links": [
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/perth"
+          }
+        ]
+      },
+      {
+        "title": "repetitive.js",
+        "imageSrc": "/page-thumbnails/repetitive.png",
+        "description": "A documentation page created for my old JS library.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/repetitive.js"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/repetitivejs"
+          }
+        ]
+      },
+      {
+        "title": "save a fox",
+        "imageSrc": "/page-thumbnails/saveafox.png",
+        "description": "My first React website.",
+        "links": [
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/saveafox"
+          }
+        ]
+      },
+      {
+        "title": "parcel-boilerplate-pwa",
+        "imageSrc": "/page-thumbnails/parcel-boilerplate-pwa.png",
+        "description": "A demo page for my Parcel bundler boilerplate.",
+        "links": [
+          {
+            "label": "Repo",
+            "href": "https://github.com/oL-web/parcel-boilerplate-pwa"
+          },
+          {
+            "label": "Live",
+            "href": "https://ol-web.github.io/pages-static/parcel-boilerplate-pwa"
+          }
+        ]
+      }
+    ]
+  }
+]

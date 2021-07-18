@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Choose a video and subtitles from your own computer to play them together in the web browser."
+    />
+    <meta
+      name="keywords"
+      content="WebSubtitlePlayer, web player, subtitles, subtitle player"
+    />
+    <title>WebSubtitlePlayer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">WebSubtitlePlayer</h1>
+
+      <video class="player" controls autoplay></video>
+
+      <div class="flex-container">
+        <div class="file-upload">
+          <input id="input-file-video" type="file" accept="video/*" />
+          <label for="input-file-video" class="btn"> Load video </label>
+        </div>
+
+        <div class="file-upload">
+          <input id="input-file-subtitles" type="file" accept="text/*" />
+          <label for="input-file-subtitles" class="btn"> Load subtitles </label>
+        </div>
+      </div>
+      <p class="description">
+        With this web app you can play videos with subtitles without downloading
+        any programs! Just select both from your computer and play. Nothing is
+        uploaded anywhere.
+      </p>
+    </div>
+    <footer>
+      <p>
+        For contact or more - visit my website
+        <a href="https://ol-web.github.io/">here</a>
+      </p>
+    </footer>
+
+    <div class="cinema-mode"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
